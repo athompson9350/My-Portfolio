@@ -8,9 +8,9 @@ import { SectionHeader } from './About';
 const socialLinks = [
   { icon: FaGithub, href: personalInfo.github, label: 'GitHub', color: '#fff' },
   { icon: FaLinkedin, href: personalInfo.linkedin, label: 'LinkedIn', color: '#0A66C2' },
-  { icon: FaXTwitter, href: personalInfo.twitter, label: 'X (Twitter)', color: '#fff' },
-  { icon: FaInstagram, href: personalInfo.instagram, label: 'Instagram', color: '#E1306C' },
-  { icon: FaEnvelope, href: `mailto:${personalInfo.email}`, label: 'Email', color: '#4483BE' },
+  // { icon: FaXTwitter, href: personalInfo.twitter, label: 'X (Twitter)', color: '#fff' },
+  // { icon: FaInstagram, href: personalInfo.instagram, label: 'Instagram', color: '#E1306C' },
+  { icon: FaEnvelope, href: `gmail:${personalInfo.email}`, label: 'Email', color: '#4483BE' },
 ];
 
 const Contact = () => {

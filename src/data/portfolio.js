@@ -1,118 +1,116 @@
 export const personalInfo = {
-  name: "Suraj G Rao",
-  title: "AI/ML Engineer | Software Engineer | Generative AI & ML Enthusiast",
+  name: "Aditya Dargan",
+  title: "Senior AI/ML Engineer | Software Engineer | Generative AI & ML Enthusiast",
   intro:
     "Dedicated Computer Science student specializing in Artificial Intelligence and Machine Learning, passionate about building intelligent systems that solve real-world problems across AI and software engineering.",
   about:
     "I have hands-on experience in Machine Learning, Deep Learning, Generative AI, ML and Backend Development. My work spans building fraud detection systems, GenAI-powered knowledge graph applications, and deploying production-ready ML systems. I also have industry experience as a Trainee Software Engineer.",
-  email: "surajgrao0203@gmail.com",
-  github: "https://github.com/Suraj-G-Rao",
-  linkedin: "https://www.linkedin.com/in/suraj-g-rao/",
-  instagram: "https://www.instagram.com/_suraj.rao_",
-  twitter: "https://x.com/SurajGRao020",
+  email: "adityadargan761@gmail.com",
+  github: "https://github.com/",
+  linkedin: "https://www.linkedin.com/in/aditya-dargan-38860657/",
+  // instagram: "https://www.instagram.com/_suraj.rao_",
+  // twitter: "https://x.com/SurajGRao020",
   resume:
-    "https://drive.google.com/file/d/16jsDt2T4MP32RdXz_zibFd4l33BMhqky/view?usp=sharing",
+    "https://drive.google.com/file/d/1Yi6OBdeUx3uzNTHbabpE9nn5dycKtUGz/view?usp=sharing",
 };
 
 export const stats = [
-  { label: "Major Projects", value: 3, suffix: "+", icon: "🚀" },
-  { label: "Internships / Roles", value: 2, suffix: "+", icon: "💼" },
-  { label: "CGPA", value: 9.46, suffix: "/10", icon: "🎓", decimals: 2 },
-  { label: "NITK Hackathon Winner", value: 1, suffix: "st", icon: "🏆" },
+  { label: "Major Projects", value: 5, suffix: "+", icon: "🚀" },
+  { label: "Internships / Roles", value: 4, suffix: "+", icon: "💼" },
+  // { label: "CGPA", value: 9.46, suffix: "/10", icon: "🎓", decimals: 2 },
+  // { label: "NITK Hackathon Winner", value: 1, suffix: "st", icon: "🏆" },
 ];
 
 export const skills = {
-  "Programming Languages": {
+  "Generative AI Systems": {
     icon: "💻",
     color: "#4483BE",
-    items: ["Python", "Java", "C++", "C"],
+    items: ["LLMs", "RAG", "Prompt Engineering", "AI Agents (LangGraph, CrewAI)"],
   },
-  "Frameworks & Libraries": {
+  "Production AI Engineering": {
     icon: "🧩",
     color: "#7C3AED",
     items: [
-      "TensorFlow",
-      "PyTorch",
-      "Scikit-learn",
-      "FastAPI",
-      "Flask",
-      "Streamlit",
-      "LangChain",
+      "LLM evaluation", "observability", "guardrails", "latency & cost optimization"
     ],
   },
-  Databases: {
+  "Data & Infrastructure": {
     icon: "🗄️",
     color: "#06B6D4",
-    items: ["MySQL", "PostgreSQL", "Neo4j", "PL/SQL"],
+    items: ["Kafka", "Spark", "BigQuery", "Snowflake", "Vector DBs (Pinecone, Weaviate)"],
   },
-  "Tools & Platforms": {
+  "Backend Systems": {
     icon: "🛠️",
     color: "#10B981",
-    items: ["Docker", "Git", "GitHub", "MLflow", "DagsHub", "Power BI", "Excel"],
+    items: ["Python (FastAPI)", "Go", "Microservices", "Node.js", "Event-driven systems"],
   },
-  Specializations: {
+  "Cloud & MLOps": {
     icon: "🧠",
     color: "#F59E0B",
     items: [
-      "Machine Learning",
-      "Deep Learning",
-      "NLP",
-      "Generative AI",
-      "Reinforcement Learning",
-      "Graph Knowledge Representation",
+      "AWS", "GCP (Vertex AI)", "Kubernetes", "Terraform", "CI/CD"
     ],
   },
-  "Core Subjects": {
+  "Programming Languages": {
     icon: "📚",
     color: "#EC4899",
-    items: ["DSA", "DBMS", "OS", "Computer Networks"],
+    items: ["Python", "Java", "C++", "JavaScript", "C", "TypeScript"],
   },
 };
 
 export const experience = [
   {
-    role: "Trainee Software Engineer",
-    company: "LCode Technologies Private Limited",
-    period: "Jan 2026 – Jun 2026",
-    duration: "6 months",
+    role: "Senior AI Systems Engineer (Product / Platform)",
+    company: "Ford Motor Company",
+    period: " 2022 – Present",
     type: "Industry",
     color: "#4483BE",
     icon: "💼",
-    logo: "/logos/Lcode.jpg",
+    logo: "/logos/ford.png",
     points: [
-      "Working on backend development and real-world software engineering practices",
-      "Gaining hands-on exposure to enterprise software development",
-      "Contributing to fraud detection and banking-related software modules",
+      "Led development of an LLM-powered diagnostic assistant, reducing service advisor handling time by 30% and automating 20% of service triage workflows",
+      "Built multi-agent AI workflows using LangChain to evaluate technician performance, enabling automated scoring and operational insights",
+      "Designed real-time AI data pipelines using Kafka + BigQuery, powering predictive fleet analytics across 100+ enterprise clients",
     ],
   },
   {
-    role: "Research Intern",
-    company: "National Institute of Technology Karnataka (NITK), Surathkal",
-    period: "Dec 2024 – Feb 2025",
-    duration: "3 months",
-    type: "Research",
+    role: "Senior MLOps Engineer",
+    company: "Ford Motor Company",
+    period: "2022 – 2024",
+    type: "Engineering",
     color: "#7C3AED",
     icon: "🔬",
-    logo: "/logos/NITK.png",
+    logo: "/logos/ford.png",
     points: [
-      "Conducted research under ISEA Phase-III initiative using neural networks",
-      "Implemented encryption/decryption for training data generation",
-      "Built Bidirectional LSTM model for pattern prediction from complex data",
+      "Deployed scalable ML infrastructure on GCP, reducing inference latency by 40%",
+      "Built real-time computer vision services ensuring 100% compliance in privacy-sensitive video processing",
+      "Developed Airflow pipelines for multimodal data (LiDAR + vision), accelerating model training cycles",
     ],
   },
   {
-    role: "Placement Coordinator",
-    company: "The National Institute of Engineering, Mysore",
-    period: "Dec 2024 – May 2026",
-    duration: "1 yr 6 months",
-    type: "Leadership",
+    role: "Senior Staff Machine Learning Engineer",
+    company: "Palo Alto Networks",
+    period: "2021 – 2022",
+    type: "Engineering",
     color: "#06B6D4",
     icon: "🎓",
-    logo: "/logos/NIE.png",
+    logo: "/logos/palo.png",
     points: [
-      "Coordinating placement activities for AI & ML Department",
-      "Bridging communication between students and Training & Placement Office",
-      "Supporting placement operations and workshops",
+      "Improved asset discovery accuracy and reduced false positives through feature engineering and ML optimization",
+      "Built scalable microservices for real-time cyber threat detection across global infrastructure",
+    ],
+  },
+  {
+    role: "Software Engineer",
+    company: "Amazon",
+    period: "2019 – 2021",
+    type: "Engineering",
+    color: "#44830E",
+    icon: "🎓",
+    logo: "/logos/amazon.png",
+    points: [
+      "Designed petabyte-scale data pipelines supporting royalty systems and analytics",
+      "Built distributed microservices handling high-volume financial and engagement data",
     ],
   },
 ];
@@ -256,32 +254,23 @@ export const leadership = [
 
 export const education = [
   {
-    degree: "Bachelor of Engineering – CSE (AI & ML)",
-    institution: "The National Institute of Engineering, Mysore",
-    period: "2022 – 2026",
+    degree: "Master of Science in Computer Science (Machine Learning)",
+    institution: "Georgia Institute of Technology",
+    period: "01/2018 – 05/2021",
     score: "CGPA: 9.46/10",
     icon: "🎓",
     color: "#4483BE",
-    logo: "/logos/NIE.png",
+    logo: "/logos/GIT.jpg",
   },
   {
-    degree: "Pre-University (Science)",
-    institution: "Sri Chaitanya College of Education",
-    period: "2020 – 2022",
+    degree: "Bachelor of Science in Computer Science",
+    institution: "Carnegie Mellon University",
+    period: "08/2012 – 12/2016",
     score: "94%",
     icon: "📖",
     color: "#7C3AED",
-    logo: "/logos/puc.png",
-  },
-  {
-    degree: "SSLC",
-    institution: "Sri Mahalingeshwara English Medium School",
-    period: "2019 – 2020",
-    score: "92.16%",
-    icon: "🏫",
-    color: "#06B6D4",
-    logo: "/logos/school.png",
-  },
+    logo: "/logos/CMU.jpg",
+  }
 ];
 
 export const certifications = [

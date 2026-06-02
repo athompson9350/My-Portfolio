@@ -10,7 +10,7 @@ const navLinks = [
   { label: 'Skills', to: 'skills' },
   { label: 'Experience', to: 'experience' },
   { label: 'Projects', to: 'projects' },
-  { label: 'Achievements', to: 'achievements' },
+  // { label: 'Achievements', to: 'achievements' },
   { label: 'Education', to: 'education' },
   { label: 'Contact', to: 'contact' },
 ];
@@ -18,8 +18,8 @@ const navLinks = [
 const socials = [
   { icon: FaGithub, href: personalInfo.github, label: 'GitHub' },
   { icon: FaLinkedin, href: personalInfo.linkedin, label: 'LinkedIn' },
-  { icon: FaXTwitter, href: personalInfo.twitter, label: 'X' },
-  { icon: FaInstagram, href: personalInfo.instagram, label: 'Instagram' },
+  // { icon: FaXTwitter, href: personalInfo.twitter, label: 'X' },
+  // { icon: FaInstagram, href: personalInfo.instagram, label: 'Instagram' },
 ];
 
 const Footer = () => {
@@ -48,8 +48,8 @@ const Footer = () => {
                 S
               </div>
               <div>
-                <p className="font-bold text-white text-lg leading-tight">Suraj G Rao</p>
-                <p className="text-gray-500 text-xs">AI/ML Engineer</p>
+                <p className="font-bold text-white text-lg leading-tight">Aditya Dargan</p>
+                <p className="text-gray-500 text-xs">Senior AI/ML Engineer</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
@@ -94,7 +94,7 @@ const Footer = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                Mysore/Mangalore, India
+                Katy, Texas, United States
               </p>
             </div>
 
@@ -129,7 +129,7 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-xs flex items-center gap-1.5">
             Built with <FaHeart className="text-red-500 text-xs" /> by{' '}
-            <span className="text-gray-300 font-medium">Suraj G Rao</span> · {new Date().getFullYear()}
+            <span className="text-gray-300 font-medium">Aditya Dargan</span> · {new Date().getFullYear()}
           </p>
           <p className="text-gray-600 text-xs">
             Crafted with React · Tailwind · Framer Motion

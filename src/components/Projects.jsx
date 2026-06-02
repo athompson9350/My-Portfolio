@@ -116,7 +116,7 @@ const ProjectCard = ({ project, index }) => {
           </div>
 
           {/* Actions */}
-          <div className="flex items-center gap-3">
+          {/* <div className="flex items-center gap-3">
             <motion.a
               href={project.github}
               target="_blank"
@@ -158,7 +158,7 @@ const ProjectCard = ({ project, index }) => {
             >
               <FaExternalLinkAlt size={13} />
             </motion.a>
-          </div>
+          </div> */}
         </div>
       </motion.div>
     </motion.div>
@@ -181,14 +181,14 @@ const Projects = () => {
         </div>
 
         {/* GitHub CTA */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 1, y: 0 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-14 text-center"
         >
           <a
-            href="https://github.com/Suraj-G-Rao"
+            href="https://github.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -204,7 +204,7 @@ const Projects = () => {
               </svg>
             </motion.button>
           </a>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

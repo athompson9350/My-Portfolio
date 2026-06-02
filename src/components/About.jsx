@@ -130,13 +130,26 @@ const About = () => {
               initial={{ opacity: 1, y: 0 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="glass-card rounded-2xl p-5 flex items-center gap-4"
+              className="glass-card rounded-2xl p-5 flex items-center gap-4 mb-8"
             >
               <div className="text-4xl">🎓</div>
               <div>
-                <p className="text-white font-semibold">B.E. in CSE (AI & ML)</p>
-                <p className="text-gray-400 text-sm">The National Institute of Engineering, Mysore</p>
-                <p className="text-primary text-sm font-medium mt-0.5">2022 – 2026 · CGPA 9.46/10</p>
+                <p className="text-white font-semibold">B.E. in CS</p>
+                <p className="text-gray-400 text-sm">Carnegie Mellon University</p>
+                <p className="text-primary text-sm font-medium mt-0.5"> 08/2012 – 12/2016</p>
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="glass-card rounded-2xl p-5 flex items-center gap-4 mb-8"
+            >
+              <div className="text-4xl">🎓</div>
+              <div>
+                <p className="text-white font-semibold">M.E. in CSE (ML)</p>
+                <p className="text-gray-400 text-sm">Georgia Institute of Technology</p>
+                <p className="text-primary text-sm font-medium mt-0.5"> 01/2018 – 05/2021</p>
               </div>
             </motion.div>
           </div>

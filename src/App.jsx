@@ -126,22 +126,22 @@ function App() {
             <Projects />
           </SectionContainer>
           <Divider />
-          <SectionContainer id="achievements" sectionName="Achievements">
+          {/* <SectionContainer id="achievements" sectionName="Achievements">
             <Achievements />
           </SectionContainer>
           <Divider />
           <SectionContainer id="leadership" sectionName="Leadership">
             <Leadership />
           </SectionContainer>
-          <Divider />
+          <Divider /> */}
           <SectionContainer id="education" sectionName="Education">
             <Education />
           </SectionContainer>
           <Divider />
-          <SectionContainer id="certifications" sectionName="Certifications">
+          {/* <SectionContainer id="certifications" sectionName="Certifications">
             <Certifications />
           </SectionContainer>
-          <Divider />
+          <Divider /> */}
           <SectionContainer id="contact" sectionName="Contact">
             <Contact />
           </SectionContainer>

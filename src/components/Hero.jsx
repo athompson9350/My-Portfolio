@@ -10,8 +10,8 @@ import profileImg from '../assets/profile.jpg';
 const socialLinks = [
   { icon: FaGithub, href: personalInfo.github, label: 'GitHub', color: '#fff' },
   { icon: FaLinkedin, href: personalInfo.linkedin, label: 'LinkedIn', color: '#0A66C2' },
-  { icon: FaXTwitter, href: personalInfo.twitter, label: 'X', color: '#fff' },
-  { icon: FaInstagram, href: personalInfo.instagram, label: 'Instagram', color: '#E1306C' },
+  // { icon: FaXTwitter, href: personalInfo.twitter, label: 'X', color: '#fff' },
+  // { icon: FaInstagram, href: personalInfo.instagram, label: 'Instagram', color: '#E1306C' },
 ];
 
 const floatPositions = [
@@ -126,7 +126,7 @@ const Hero = () => {
             className="text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight mb-4 leading-tight"
           >
             Hi, I'm{' '}
-            <span className="text-white block sm:inline">Suraj G Rao</span>
+            <span className="text-white block sm:inline">Aditya Dargan</span>
           </motion.h1>
 
           <motion.div
@@ -137,7 +137,7 @@ const Hero = () => {
           >
             <TypeAnimation
               sequence={[
-                'AI/ML Engineer',
+                'Senior AI/ML Engineer',
                 2000,
                 'Software Engineer',
                 2000,

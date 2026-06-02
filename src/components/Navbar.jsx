@@ -11,10 +11,10 @@ const navLinks = [
   { label: 'Skills', to: 'skills' },
   { label: 'Experience', to: 'experience' },
   { label: 'Projects', to: 'projects' },
-  { label: 'Achievements', to: 'achievements' },
-  { label: 'Leadership', to: 'leadership' },
+  // { label: 'Achievements', to: 'achievements' },
+  // { label: 'Leadership', to: 'leadership' },
   { label: 'Education', to: 'education' },
-  { label: 'Certifications', to: 'certifications' },
+  // { label: 'Certifications', to: 'certifications' },
   { label: 'Contact', to: 'contact' },
 ];
 
@@ -92,10 +92,10 @@ const Navbar = () => {
             >
               <div className="w-9 h-9 rounded-lg flex items-center justify-center text-lg font-black"
                 style={{ background: 'linear-gradient(135deg, #4483BE, #7C3AED)' }}>
-                S
+                A
               </div>
               <span className="font-bold text-white text-lg tracking-tight hidden sm:block">
-                Suraj G Rao
+                Aditya Dargan
               </span>
             </motion.div>
           </Link>
@@ -120,7 +120,7 @@ const Navbar = () => {
           {/* CTA */}
           <div className="hidden lg:flex items-center gap-3">
             <motion.a
-              href="https://drive.google.com/file/d/16jsDt2T4MP32RdXz_zibFd4l33BMhqky/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Yi6OBdeUx3uzNTHbabpE9nn5dycKtUGz/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -183,7 +183,7 @@ const Navbar = () => {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.4 }}
-                  href="https://drive.google.com/file/d/16jsDt2T4MP32RdXz_zibFd4l33BMhqky/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Yi6OBdeUx3uzNTHbabpE9nn5dycKtUGz/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary text-center mt-2 justify-center"
