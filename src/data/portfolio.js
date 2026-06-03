@@ -117,23 +117,11 @@ export const experience = [
 
 export const projects = [
   {
-    title: "RL Based Threat Detection System",
-    description:
-      "Developed an RL-powered Threat Detection System leveraging Deep Q-Networks with NASIM for real-time attack mitigation in 6G networks. Integrated Knowledge Graph with Neo4j and built a GenAI-powered Cypher query generation system using Groq/Gemini.",
-    tech: ["Python", "RL", "DQN", "NASIM", "Neo4j", "Streamlit", "Groq", "Gemini"],
-    github: "https://github.com/Suraj-G-Rao/RL-Based-Cyber-Threat-Detection",
-    color: "#4483BE",
-    gradient: "from-blue-600/20 to-purple-600/10",
-    icon: "🛡️",
-    category: "AI/ML",
-    featured: true,
-  },
-  {
     title: "DES Decryption Using BiLSTM",
     description:
       "Applied Bidirectional LSTM networks to recover plaintext from DES encrypted ciphertext by learning encryption patterns without access to keys. Research-grade implementation produced during NITK internship.",
     tech: ["Python", "DES", "Deep Learning", "BiLSTM"],
-    github: "https://github.com/Suraj-G-Rao/DES-Decryption-Using-BiLSTM",
+    image: "/photos/project2.png",
     color: "#7C3AED",
     gradient: "from-purple-600/20 to-pink-600/10",
     icon: "🔐",
@@ -145,12 +133,24 @@ export const projects = [
     description:
       "Developed an end-to-end ML pipeline to predict student academic performance with Flask deployment and Dockerized production setup. Full MLOps lifecycle with MLflow tracking.",
     tech: ["Python", "Flask", "Docker", "Scikit-learn", "MLflow"],
-    github: "https://github.com/Suraj-G-Rao/Student-Performance-Prediction",
+    image: "/photos/project3.png",
     color: "#06B6D4",
     gradient: "from-cyan-600/20 to-blue-600/10",
     icon: "📊",
     category: "MLOps + ML",
     featured: false,
+  },
+  {
+    title: "RL Based Threat Detection System",
+    description:
+      "Developed an RL-powered Threat Detection System leveraging Deep Q-Networks with NASIM for real-time attack mitigation in 6G networks. Integrated Knowledge Graph with Neo4j and built a GenAI-powered Cypher query generation system using Groq/Gemini.",
+    tech: ["Python", "RL", "DQN", "NASIM", "Neo4j", "Streamlit", "Groq", "Gemini"],
+    image: "/photos/project1.png",
+    color: "#4483BE",
+    gradient: "from-blue-600/20 to-purple-600/10",
+    icon: "🛡️",
+    category: "AI/ML",
+    featured: true,
   },
 ];
 

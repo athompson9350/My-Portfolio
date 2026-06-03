@@ -14,7 +14,7 @@ const ProjectCard = ({ project, index }) => {
       transition={{ duration: 0.6, delay: index * 0.15 }}
       onHoverStart={() => setHovered(true)}
       onHoverEnd={() => setHovered(false)}
-      className="relative group cursor-default"
+      className="relative group cursor-default h-full"
     >
       <motion.div
         animate={{
@@ -22,7 +22,7 @@ const ProjectCard = ({ project, index }) => {
           y: hovered ? -8 : 0,
         }}
         transition={{ duration: 0.35, ease: 'easeOut' }}
-        className="relative rounded-3xl overflow-hidden h-full"
+        className="relative rounded-3xl overflow-hidden h-full flex flex-col xl:flex-row"
         style={{
           background: 'rgba(17,24,39,0.65)',
           border: `1px solid ${hovered ? project.color + '50' : 'rgba(255,255,255,0.07)'}`,
@@ -33,11 +33,20 @@ const ProjectCard = ({ project, index }) => {
           transition: 'all 0.35s ease',
         }}
       >
-        {/* Card top gradient strip */}
         <div
-          className="absolute top-0 left-0 w-full h-1"
+          className="absolute top-0 left-0 w-full h-1 z-10"
           style={{ background: `linear-gradient(90deg, ${project.color}, transparent)` }}
         />
+
+        <div className="relative flex-shrink-0 p-7 pb-0 xl:pb-7 xl:w-[min(42%,22rem)] xl:self-stretch">
+          <div className="aspect-video w-full h-full overflow-hidden rounded-2xl xl:aspect-auto xl:min-h-[11rem]">
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
 
         {/* Background glow */}
         <AnimatePresence>
@@ -68,7 +77,7 @@ const ProjectCard = ({ project, index }) => {
           </div>
         )}
 
-        <div className="p-7 h-full flex flex-col">
+        <div className="p-7 pt-5 xl:pt-7 h-full flex flex-col flex-1 min-w-0">
           {/* Icon + category */}
           <div className="flex items-center gap-3 mb-5">
             <div
@@ -116,9 +125,9 @@ const ProjectCard = ({ project, index }) => {
           </div>
 
           {/* Actions */}
-          {/* <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3">
             <motion.a
-              href={project.github}
+              href={project.image}
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -140,11 +149,10 @@ const ProjectCard = ({ project, index }) => {
                 e.currentTarget.style.boxShadow = 'none';
               }}
             >
-              <FaGithub size={15} />
-              View on GitHub
+              View Project
             </motion.a>
             <motion.a
-              href={project.github}
+              href={project.image}
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1, rotate: 10 }}
@@ -158,7 +166,7 @@ const ProjectCard = ({ project, index }) => {
             >
               <FaExternalLinkAlt size={13} />
             </motion.a>
-          </div> */}
+          </div>
         </div>
       </motion.div>
     </motion.div>
@@ -174,7 +182,7 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeader subtitle="What I've Built" title="Featured" accent="Projects" />
 
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-7">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-1 gap-7 items-stretch">
           {projects.map((project, i) => (
             <ProjectCard key={project.title} project={project} index={i} />
           ))}
